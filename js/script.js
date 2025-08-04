@@ -12,9 +12,11 @@ document.getElementById("add-calculate").addEventListener("click", function() {
         document.getElementById("add-result").textContent = totaladd;
         document.getElementById("add-num1").value = "";
         document.getElementById("add-num2").value = "";
+        console.log("Addition Performed.");
 
     } else {
         document.getElementById("add-result").textContent = "0";
+        console.log("Reset Result");
     }
 })
 
@@ -32,8 +34,10 @@ document.getElementById("sub-calculate").addEventListener("click", function(){
         document.getElementById("sub-result").textContent = totalSub;
         document.getElementById("sub-num1").value = "";
         document.getElementById("sub-num2").value = "";
+        console.log("Subtraction Performed.");
     }else {
         document.getElementById("sub-result").textContent = "0";
+        console.log("Reset Result");
     }
 })
 
@@ -51,8 +55,10 @@ document.getElementById("mul-calculate").addEventListener("click", function(){
         document.getElementById("mul-result").textContent = totalMul;
         document.getElementById("mul-num1").value = "";
         document.getElementById("mul-num2").value = "";
+        console.log("Multiplication Performed.");
     }else {
         document.getElementById("mul-result").textContent = "0";
+        console.log("Reset Result");
     }
 })
 
@@ -70,7 +76,9 @@ document.getElementById("div-calculate").addEventListener("click", function(){
         document.getElementById("div-result").textContent = totalDiv;
         document.getElementById("div-num1").value = "";
         document.getElementById("div-num2").value = "";
+        console.log("Division Performed.");
     }else {
         document.getElementById("div-result").textContent = "0";
+        console.log("Reset Result");
     }
 })
