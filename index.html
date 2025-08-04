@@ -11,21 +11,23 @@
     
 </head>
 <body>
-    <!---Nav-bar--->
-    <nav class="nav-bar">
-    <div class="logo">Khao</div>
-    <ul class="nav-links">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="contact.html">Contact</a></li>
-    <li><a href="resources.html">Resources</a></li>
-    </ul>
-</nav>
-
-    <!---Header Section--->
-    <header class="hero">
-        <h1>Welcome to Khao</h1>
-        <h3>Eating healthy isn't a disrespect</h3>
-    </header>
+  <div>
+    <button class="add-to-cart">Add to Cart</buttoon>
+        <script>
+            document.querySelector('.add-to-cart').addEventListener('click', function(){
+                alert('Added to Cart');
+                console.log('Added to Cart');
+            })
+        </script>
+</div>
+<div>
+  <button class="buy-now">Buy Now</button>
+          <script>
+            document.querySelector('.buy-now').addEventListener('click', function(){
+                alert('Thank you for shopping with us!');
+                console.log('Buy Now button clicked');
+            })
+        </script>
+  </div>
 </body>
 </html>

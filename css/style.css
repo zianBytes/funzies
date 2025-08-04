@@ -1,56 +1,24 @@
-/* CSS type shit */
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #fff8f0;
-    color :#333;
-}
-
-.nav-bar {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
     display: flex;
-    justify-content: space-between;
-    padding: 1.2rem 2rem;
-    background-color: black;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    
 }
+.add-to-cart {
+    background-color: yellow;
+    color: black;
+    border: 2px solid black;}
 
-.logo {
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: whitesmoke;
+.buy-now {
+    background-color: orange;
+    color: black;
+    border: 2px solid black;
 }
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 1.5rem;
-}
-
-.nav-links a{
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: 500;
-}
-
-.hero{
-    text-align: center;
-    padding: 10rem 2rem;
-    background: linear-gradient(to right, #929292, #ffffff);
-    color: #6b2f2f;
-}
-
-.hero h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-}
-
-.hero p {
-    font-size: 1.25rem;
+div {
+    margin: 10px;
 }
