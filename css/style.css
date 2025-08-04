@@ -7,15 +7,15 @@
     align-content: center;
     background-color: rgb(0, 0, 0);
     height: 150px;
-    width: 101%;
+    width: 103%;
     margin-top: -20px;
     border-radius: 4px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(83, 28, 112, 0.5);
 }
 /* Body*/
 
 body {
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -25,20 +25,22 @@ body {
 /* First Container*/
 
 .header {
-    background-image: linear-gradient(to right, rgb(109, 80, 198), lightblue);
-    height: 400px;
-    width: 101%;
-    border-radius: 4px;
+    background-image: linear-gradient(to right, rgb(6, 6, 6), rgb(0, 0, 0), rgb(0, 0, 0));
+    height: 200px;
+    width: 103%;
+    border-radius: 200px;
 }
 
 /* First Container Fonts */
 
 .first-text {
     text-align: center;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 100px;
     font-weight: bolder;
-    font-style: italic;
+    font-family: copperplate, fantasy;
+    border-radius: 4px;
+    margin-top: 15px;
 }
 
 /* logo */
@@ -51,40 +53,53 @@ body {
     margin-left: 20px;
 }
 
-.calc-row {
+/* Calculator */
+.calc-row-addition, .calc-row-subtraction, .calc-row-multiplication, .calc-row-division {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 80px;
+    gap: 85px;
     height: 50px;
     width: 50px;
     margin-bottom: 60px;
-    background-color: azure;
+    font-family: copperplate, fantasy;
 }
-
-.num-input {
-    background-color: rgb(169, 160, 215);
+.add-input1, .add-input2, .sub-input1, .sub-input2, .mul-input1, .mul-input2, .div-input1, .div-input2 {
+    background-image: linear-gradient(to right, rgb(45, 45, 46), rgb(98, 98, 99));
     width: 100px;
     height: 60px;
     font-size: 16px;
     text-align: center;
     border-radius: 4px;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
     margin-bottom: -20px;
+    font-family: Arial, sans-serif;
+    font-size: large;
+    color: white;
 }
 
-.operator, .equal, .result {
+.operator, .equal, .add-result, .sub-result, .mul-result, .div-result {
     font-size: 50px;
     margin-bottom: -20px;
+    color: white;
 }
 
-.calculate {
+.add-calculate, .sub-calculate, .mul-calculate, .div-calculate {
     background-image: linear-gradient(to right, rgb(45, 45, 46), rgb(111, 50, 216));
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 20px;
+    font-family: copperplate, fantasy;
     border-radius: 5px;
     border-width: 5px;
-    margin-bottom: -20px;;
+    margin-bottom: -20px;
     width: 100px;
     height: 60px;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    align-content: center;
 }
